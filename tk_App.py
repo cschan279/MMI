@@ -10,7 +10,7 @@ from UI.Logo import Logo
 from UI.Clock import Clock
 from UI.Bar import BarS
 from utils.Cam import Cam
-from utils.dummy import Detect
+
 
 
 class tkApp(App):
