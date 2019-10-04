@@ -16,11 +16,10 @@ from utils.dummy import Detect
 class tkApp(App):
     def setup(self):
         self.cam = Cam(0)
-        self.det = Detect()
-        self.asking = False
+        return
     
     def layout(self):
-        
+        print('null layout')
         return
     
     def update(self):
